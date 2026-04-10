@@ -1149,7 +1149,7 @@ body {
    ENGRANES — carrusel vertical scroll-hijack
    ============================================= */
 .engranes {
-  height: 600dvh;
+  height: 350dvh;
   position: relative;
 }
 
