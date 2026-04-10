@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Negocio Te Tiene Preso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Glow que sigue al mouse -->
+  <div class="glow" id="glow"></div>
+
+  <!-- Grain (textura de ruido) -->
+  <div class="grain"></div>
+
+  <!-- BLOQUE 2 — HERO -->
+  <section class="hero">
+
+    <!-- Anillos de pulso -->
+    <div class="hero-ring"></div>
+    <div class="hero-ring"></div>
+    <div class="hero-ring"></div>
+
+    <!-- Líneas de fondo animadas -->
+    <div class="hero-bg-lines">
+      <span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Esquinas decorativas -->
+    <div class="hero-corner hero-corner--tl"></div>
+    <div class="hero-corner hero-corner--br"></div>
+
+    <div class="hero-content">
+
+      <!-- Eyebrow badge -->
+      <div class="hero-eyebrow">
+        <span class="dot"></span>
+        <span>Si tu negocio funciona perfecto sin ti, esta carta no es para ti</span>
+      </div>
+
+      <!-- Titular con animación cinética (slide-up por línea) -->
+      <h1 class="hero-headline">
+        <span class="line"><span class="line-inner">TU NEGOCIO</span></span>
+        <span class="line"><span class="line-inner">TE TIENE</span></span>
+        <span class="line"><span class="line-inner"><span class="glitch">PRESO</span></span></span>
+        <span class="line"><span class="line-inner hero-line-small">Y TÚ MISMO TE PUSISTE ESAS CADENAS<span class="hero-dot">.</span></span></span>
+      </h1>
+
+      <!-- Tarjeta de estadística -->
+      <div class="hero-evidence">
+        <div class="hero-evidence-inner">
+          <span class="hero-evidence-desc">SI EL NEGOCIO ESTÁ ACOSTUMBRADO A DEPENDER DE TI, ESTA CARTA TE VA A DOLER</span>
+        </div>
+        <div class="scroll-line"></div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SECCIÓN DE MITOS -->
+  <section class="truth" id="mitos">
+    <div class="truth-sticky-wrap">
+      <div class="truth-sticky-inner">
+        <div class="truth-progress-bar" id="truthProgress"></div>
+        <div class="truth-track" id="truthTrack">
+
+          <div class="truth-slide">
+            <div class="truth-slide-counter">01 <span>/ 04</span></div>
+            <div class="truth-myth">"Cuando crezca el negocio, va a jalar solo"</div>
+            <div class="truth-rule"></div>
+            <div class="truth-verdict">eso no va a pasar sin estrategia</div>
+          </div>
+
+          <div class="truth-slide">
+            <div class="truth-slide-counter">02 <span>/ 04</span></div>
+            <div class="truth-myth">"Gano bien, no me puedo quejar"</div>
+            <div class="truth-rule"></div>
+            <div class="truth-verdict">pero no recuerdas tu último día libre sin interrupciones</div>
+          </div>
+
+          <div class="truth-slide">
+            <div class="truth-slide-counter">03 <span>/ 04</span></div>
+            <div class="truth-myth">"Mi gente no tiene iniciativa"</div>
+            <div class="truth-rule"></div>
+            <div class="truth-verdict">porque les enseñaste que tú resuelves todo</div>
+          </div>
+
+          <div class="truth-slide">
+            <div class="truth-slide-counter">04 <span>/ 04</span></div>
+            <div class="truth-myth">"Soy mi propio jefe"</div>
+            <div class="truth-rule"></div>
+            <div class="truth-verdict">sí, pero no puedes faltar ningún lunes</div>
+          </div>
+
+        </div>
+        <div class="truth-dots">
+          <div class="truth-dot" id="td0"></div>
+          <div class="truth-dot" id="td1"></div>
+          <div class="truth-dot" id="td2"></div>
+          <div class="truth-dot" id="td3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MANIFESTO — Hacer ≠ Dirigir -->
+  <section class="manifesto">
+    <div class="manifesto-bg">≠</div>
+
+    <div class="manifesto-content reveal">
+      <div class="manifesto-label">Los síntomas son claros</div>
+
+      <div class="manifesto-statement">
+        <span class="manifesto-word reveal reveal-delay-1">HACER ≠ DIRIGIR<span class="hero-dot">.</span></span>
+        <span class="manifesto-word reveal reveal-delay-2">ESTAR OCUPADO NO ES ESTAR AVANZANDO<span class="hero-dot">.</span></span>
+      </div>
+
+      <div class="manifesto-body reveal reveal-delay-3">
+        <p>
+          Surge un problema → <strong>Tú lo resuelves</strong> porque es más fácil hacerlo que capacitar.
+        </p>
+        <p>
+          Tu equipo aprende que no necesita resolverlo → <strong>Porque siempre lo haces tú.</strong>
+        </p>
+        <p>
+          Cada vez tienes más cosas que resolver → <strong>Porque nadie más sabe hacerlas.</strong>
+        </p>
+        <p>
+          Te frustras porque <strong>"nadie tiene iniciativa"</strong> → Pero nunca les enseñaste a resolverlo sin ti.
+        </p>
+        <p>
+          Entonces te cuentas la historia: <em>"es que nadie lo hace como yo"</em>, <em>"es que mi gente no da más"</em>, <em>"es que así es este negocio"</em>.
+        </p>
+        <p>
+          Y abajo de todo eso hay una creencia más profunda…<br>
+          que si le chingas lo suficiente, un día todo va a funcionar solo.
+        </p>
+        <p>
+          Que nada más necesitas un buen empleado,<br>
+          un buen mes,<br>
+          un poco más de tiempo.
+        </p>
+        <p class="manifesto-closer">
+          Le llamas <em>"echarle ganas"</em><br>
+          <strong class="accent">Y así es como se te va la vida en el negocio.</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACKING CARDS — ¿Te suena familiar? -->
+  <section class="stack-section">
+    <div class="section-title">
+      <div class="stack-title-inner">
+        <h2 class="stack-heading">¿Te suena familiar?</h2>
+        <div class="stack-scroll-arrow">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-list">
+      <div class="stack-card">
+        <p>Sientes culpa cuando no estás chambeando</p>
+      </div>
+      <div class="stack-card">
+        <p>Éxito = horas trabajadas en lugar de resultados generados</p>
+      </div>
+      <div class="stack-card">
+        <p>Estás lleno de pendientes urgentes</p>
+      </div>
+      <div class="stack-card">
+        <p>"Si no estoy yo, nadie lo hace igual"</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCIONISTA — Sección final de identidad -->
+  <section class="accionista-section">
+    <div class="accionista-inner">
+      <h2 class="accionista-headline">Ya no eres un emprendedor:<br><span class="hl">eres accionista</span><br>de tu negocio.</h2>
+      <div class="accionista-body">
+        <p>Deja de llamarte <span class="hl">emprendedor.</span><br>Sé que suena raro.</p>
+        <p>Pero la palabra "emprendedor" se ha convertido en sinónimo de<br><span class="hl">"esclavo de su negocio con orgullo".</span></p>
+        <p>Ser el primero en llegar.<br>Dormir poco.<br>Sacrificar todo.</p>
+        <p class="accionista-podrida"><span class="hl">"Esa narrativa está podrida."</span></p>
+        <p>De hoy en adelante, llámalo como es:<br>eres un <span class="hl">accionista.</span></p>
+        <p>Cuando cambias tu identidad,<br>cambias tus decisiones.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORD + CARTA — Pregunta de impacto y carta de cierre -->
+  <section id="ford-carta">
+
+    <!-- FORD — Pregunta de impacto -->
+    <div class="ford-section" id="ford">
+      <div class="ford-parallax-wrap" id="fordParallax">
+        <div class="ford-inner">
+          <p class="ford-line"><span class="ford-line-inner">Si tuvieras</span></p>
+          <p class="ford-line"><span class="ford-line-inner ford-hl">100 acciones</span></p>
+          <p class="ford-line"><span class="ford-line-inner">de Ford&hellip;</span></p>
+          <p class="ford-line ford-question"><span class="ford-line-inner">¿irías a la fábrica</span></p>
+          <p class="ford-line ford-question"><span class="ford-line-inner">a ensamblar coches</span></p>
+          <p class="ford-line ford-question ford-small"><span class="ford-line-inner">para <em class="ford-quote">&ldquo;ganarte&rdquo;</em> el dividendo?</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARTA — Deja de ser indispensable -->
+    <div class="carta-section" id="carta">
+      <div class="carta-sticky-wrap">
+        <div class="carta-card">
+          <div class="carta-eyebrow">
+            <span class="carta-dot"></span>
+            <span>Si quieres ser inversionista...</span>
+          </div>
+          <div class="carta-text" id="cartaText">
+            <span class="carta-block carta-title">Deja de ser indispensable.</span>
+            <span class="carta-block carta-subtitle">Deja de ser las manos de tu negocio y comienza a ser la mente</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ENGRANES — carrusel vertical de 6 engranes -->
+  <section class="engranes" id="engranes">
+    <div class="engranes-sticky-wrap">
+
+      <!-- Barra de progreso (top) -->
+      <div class="engranes-pbar" id="engranesProgress"></div>
+
+      <!-- Título sticky -->
+      <div class="engranes-header">
+        <div class="engranes-label">Lo que tu negocio necesita</div>
+        <h2 class="engranes-headline">Tu empresa necesita que diseñes bien<br><span class="hero-dot">6 engranes.</span></h2>
+      </div>
+
+      <!-- Track vertical -->
+      <div class="engranes-track-wrap">
+        <div class="engranes-track" id="engranesTrack">
+
+          <div class="engrane-slide">
+            <div class="engrane-counter">01 <span>/ 06</span></div>
+            <div class="engrane-num">01</div>
+            <div class="engrane-rule"></div>
+            <div class="engrane-text">Todos en tu equipo saben exactamente a dónde van</div>
+          </div>
+
+          <div class="engrane-slide">
+            <div class="engrane-counter">02 <span>/ 06</span></div>
+            <div class="engrane-num">02</div>
+            <div class="engrane-rule"></div>
+            <div class="engrane-text">Cada persona hace lo que mejor sabe hacer</div>
+          </div>
+
+          <div class="engrane-slide">
+            <div class="engrane-counter">03 <span>/ 06</span></div>
+            <div class="engrane-num">03</div>
+            <div class="engrane-rule"></div>
+            <div class="engrane-text">Los números que te dicen la verdad de tu negocio</div>
+          </div>
+
+          <div class="engrane-slide">
+            <div class="engrane-counter">04 <span>/ 06</span></div>
+            <div class="engrane-num">04</div>
+            <div class="engrane-rule"></div>
+            <div class="engrane-text">Tienes un sistema para arreglar los problemas de raíz</div>
+          </div>
+
+          <div class="engrane-slide">
+            <div class="engrane-counter">05 <span>/ 06</span></div>
+            <div class="engrane-num">05</div>
+            <div class="engrane-rule"></div>
+            <div class="engrane-text">Procesos que cualquiera pueda seguir</div>
+          </div>
+
+          <div class="engrane-slide">
+            <div class="engrane-counter">06 <span>/ 06</span></div>
+            <div class="engrane-num">06</div>
+            <div class="engrane-rule"></div>
+            <div class="engrane-text">Asegurarte que tu negocio siempre avanza</div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Puntos de navegación (derecha) -->
+      <div class="engranes-dots">
+        <div class="engrane-dot" id="ed0"></div>
+        <div class="engrane-dot" id="ed1"></div>
+        <div class="engrane-dot" id="ed2"></div>
+        <div class="engrane-dot" id="ed3"></div>
+        <div class="engrane-dot" id="ed4"></div>
+        <div class="engrane-dot" id="ed5"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MAKER CENTER — Cómo funciona -->
+  <section class="maker-section" id="como-funciona">
+    <div class="maker-inner">
+
+      <!-- Label -->
+      <div class="label-row">
+        <div class="label-line"></div>
+        <span class="label-text">Cómo funciona</span>
+      </div>
+
+      <!-- Headline -->
+      <h2 class="mc-headline" data-headline>Le ponemos sistema operativo a tu negocio.</h2>
+      <p class="mc-subheadline" data-subheadline>En 3 meses tu empresa tiene estructura, rumbo claro, y deja de depender solo de ti para funcionar.</p>
+
+      <!-- Sessions timeline -->
+      <div class="mc-sessions" data-sessions>
+        <div class="session-progress" data-progress></div>
+
+        <div class="mc-session" data-session>
+          <div class="mc-session-dot-wrap"><div class="mc-session-dot"></div></div>
+          <div class="mc-session-content">
+            <div class="mc-session-number">Sesión 1 · Mes 1</div>
+            <div class="mc-session-title">Visión y estructura</div>
+            <p class="mc-session-desc">Definimos a dónde va tu empresa y quién es responsable de qué. Tu equipo sale con una visión compartida y un organigrama real.</p>
+          </div>
+        </div>
+
+        <div class="mc-session" data-session>
+          <div class="mc-session-dot-wrap"><div class="mc-session-dot"></div></div>
+          <div class="mc-session-content">
+            <div class="mc-session-number">Sesión 2 · Mes 2</div>
+            <div class="mc-session-title">Procesos y métricas</div>
+            <p class="mc-session-desc">Armamos los procesos clave y los números que importan. Tu equipo empieza a tomar decisiones con datos, no con corazonadas.</p>
+          </div>
+        </div>
+
+        <div class="mc-session" data-session>
+          <div class="mc-session-dot-wrap"><div class="mc-session-dot"></div></div>
+          <div class="mc-session-content">
+            <div class="mc-session-number">Sesión 3 · Mes 3</div>
+            <div class="mc-session-title">Tracción y ejecución</div>
+            <p class="mc-session-desc">Instalamos el ritmo de juntas, prioridades trimestrales y el sistema para resolver problemas. Tu negocio ya camina solo.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Los 6 engranes -->
+      <div class="mc-engranes-label" data-eng-label>Los 6 engranes que armamos</div>
+      <div class="mc-engranes-grid">
+        <div class="mc-engrane" data-engrane>
+          <div class="mc-engrane-number">01</div>
+          <span class="mc-engrane-icon">🔭</span>
+          <div class="mc-engrane-name">Visión</div>
+        </div>
+        <div class="mc-engrane" data-engrane>
+          <div class="mc-engrane-number">02</div>
+          <span class="mc-engrane-icon">🧩</span>
+          <div class="mc-engrane-name">Equipo</div>
+        </div>
+        <div class="mc-engrane" data-engrane>
+          <div class="mc-engrane-number">03</div>
+          <span class="mc-engrane-icon">📊</span>
+          <div class="mc-engrane-name">Pulso</div>
+        </div>
+        <div class="mc-engrane" data-engrane>
+          <div class="mc-engrane-number">04</div>
+          <span class="mc-engrane-icon">⚙️</span>
+          <div class="mc-engrane-name">Sistemas</div>
+        </div>
+        <div class="mc-engrane" data-engrane>
+          <div class="mc-engrane-number">05</div>
+          <span class="mc-engrane-icon">🎯</span>
+          <div class="mc-engrane-name">Ritmo</div>
+        </div>
+        <div class="mc-engrane" data-engrane>
+          <div class="mc-engrane-number">06</div>
+          <span class="mc-engrane-icon">🔧</span>
+          <div class="mc-engrane-name">Pendientes</div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="mc-cta-block" data-cta>
+        <div class="mc-cta-top">
+          <span class="mc-cta-number" data-cta-count>0</span>
+          <span class="mc-cta-headline">engranes armados al terminar.</span>
+        </div>
+        <div class="mc-cta-sub">O te devolvemos la inversión.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA — Agenda tu diagnóstico -->
+  <section class="diag-section" id="diagnostico">
+    <div class="diag-inner">
+
+      <!-- Label -->
+      <div class="diag-label-row">
+        <div class="diag-label-line"></div>
+        <span class="diag-label-text">El siguiente paso</span>
+      </div>
+
+      <!-- Headline -->
+      <h2 class="diag-headline">Agenda una sesión<br>de diagnóstico</h2>
+
+      <!-- Gancho gratis -->
+      <p class="diag-free">Esta llamada no tiene costo.</p>
+
+      <!-- Descripción -->
+      <p class="diag-desc">Hacemos una radiografía de tu negocio. Revisamos los 6 engranes, vemos cuáles tienes trabados, y te vas con claridad total de qué está atorado y por dónde empezar.</p>
+
+      <!-- Lo que vas a saber -->
+      <div class="diag-sabes">
+        <div class="diag-sabes-label">Al final vas a saber dos cosas:</div>
+        <div class="diag-items">
+          <div class="diag-item">
+            <span class="diag-item-num">01</span>
+            <p>Qué necesita tu negocio ahora mismo. Cuál es la prioridad para empezar a resolver mañana.</p>
+          </div>
+          <div class="diag-item">
+            <span class="diag-item-num">02</span>
+            <p>Si somos el equipo correcto para ayudarte. Y si no somos, te lo decimos de frente. No te vamos a vender algo que no necesitas.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botón -->
+      <a href="#" class="diag-btn">
+        <span class="diag-btn-arrow">→</span>
+        Agenda tu diagnóstico
+      </a>
+
+      <!-- Leyenda hacia la sección de nosotros -->
+      <div class="diag-quienes">
+        <span class="diag-quienes-label">¿Quiénes somos?</span>
+        <svg class="diag-quienes-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="5" x2="12" y2="19"></line>
+          <polyline points="19 12 12 19 5 12"></polyline>
+        </svg>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- NOSOTROS — Benji y Chema -->
+  <section class="nosotros-section" id="nosotros">
+
+    <!-- Scroll track: altura para la animación de convergencia -->
+    <div class="nos-scroll-track" id="nosScrollTrack">
+      <div class="nos-scene" id="nosScene">
+
+        <!-- Benji: izquierda, 60vw, entra desde la izquierda -->
+        <div class="nos-photo nos-photo--benji" id="nosBenji">
+          <img src="img/benji.jpg" alt="Benji" loading="lazy">
+        </div>
+
+        <!-- Chema: derecha, 45vw, ligeramente más abajo, entra desde la derecha -->
+        <div class="nos-photo nos-photo--chema" id="nosChema">
+          <img src="img/chema.jpg" alt="Chema" loading="lazy">
+        </div>
+
+        <!-- Gradiente inferior para legibilidad del texto -->
+        <div class="nos-bottom-fade"></div>
+
+        <!-- Headline: aparece en el espacio negativo central -->
+        <div class="nos-headline-wrap" id="nosHeadline">
+          <div class="n-eyebrow"><span class="n-dot"></span><span>Quiénes somos</span></div>
+          <h2 class="n-title">
+            <span class="n-split">Somos Benji y Chema.</span><br>
+            <span class="n-split">Somos Maker Center.</span>
+          </h2>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Cuerpo del texto: scroll normal después de la escena -->
+    <div class="nosotros-content" id="nosotrosContent">
+      <div class="n-body">
+        <p>Hemos trabajado con más de 500 empresas en todo lo que tiene que ver con hacer que un negocio funcione de verdad: innovación, gestión empresarial, creación de líderes, diseño de sistemas, procesos y automatizaciones.</p>
+        <p><span class="n-hook">No somos teóricos.</span> No venimos de un corporativo gringo a decirte cómo manejar tu negocio. Estamos aquí, en Aguascalientes, trabajando con empresarios como tú todos los días.</p>
+        <p>Sabemos cómo se ve un negocio donde el dueño no puede ni ir al doctor sin que le marquen. Sabemos cómo se siente cargar con la nómina, los proveedores y las familias de tu equipo encima.<br><span class="n-hook">Y sabemos cómo se ve el proceso de automatizar tu negocio.</span></p>
+        <p>Si podemos ayudarte, te lo decimos. Si no somos el equipo correcto para lo que necesitas, también te lo decimos. <span class="n-hook">Así de simple.</span></p>
+      </div>
+
+      <a href="#" class="diag-btn n-diag-btn">
+        <span class="diag-btn-arrow">→</span>
+        Agenda tu diagnóstico
+      </a>
+    </div>
+
+  </section>
+
+  <!-- PRUEBA DE FUEGO — Vacaciones de un mes -->
+  <section class="fuego-section" id="prueba-fuego">
+    <div class="fuego-inner">
+
+      <div class="fuego-label-row">
+        <div class="fuego-label-line"></div>
+        <span class="fuego-label-text">La prueba definitiva</span>
+      </div>
+
+      <h2 class="fuego-headline">La prueba de fuego: Vete 1 mes de vacaciones<span class="fuego-headline-sub"> (vacaciones de verdad)</span></h2>
+
+      <div class="fuego-body">
+        <p>Programa un mes entero donde no te busquen, no te llamen y tu negocio no te necesite.</p>
+
+        <p>La respuesta usual es: <strong>"Estás loco"</strong><br>
+        Porque probablemente <mark class="fuego-mark">tu negocio no sobrevive a una semana sin ti.</mark></p>
+
+        <p>Y ese es el punto.</p>
+
+        <p>Tu negocio depende de ti completamente.</p>
+
+        <p>Esa es nuestra promesa, si trabajas con nosotros, en 12 o 18 meses vas a poder programar ese mes de vacaciones.</p>
+
+        <p><mark class="fuego-mark">Instala este sistema y desconéctate.</mark></p>
+
+        <p>Y cuando lo logres, vas a saber que te has convertido en accionista de tu negocio.</p>
+      </div>
+
+      <a href="#diagnostico" class="fuego-btn">
+        <span class="fuego-btn-arrow">→</span>
+        Agenda tu diagnóstico
+      </a>
+
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
